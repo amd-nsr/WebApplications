@@ -1,0 +1,305 @@
+/* ------------------------main style  ------------------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	box-sizing: border-box;
+    
+}
+html {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+/* ------------------------end main style  ------------------------------*/
+/* ------------------------ start my fram work style  ------------------------------*/
+.text-center{
+text-align: center;
+}
+.position-re{
+	position: relative;
+}
+.main-color{
+	color:#008eff;
+}
+.container{
+	width: 900px;
+	margin:0 auto;
+	padding: 5px;
+}
+.hidden{
+	display:none;
+}
+/* ------------------------ end my fram work style  ------------------------------*/
+/* ------------------------start style  the header ---------------------------------*/
+header{
+    width: 100%;
+	height: 50px;
+	padding: 5px;
+	background-color:;
+	color:#008eff;
+	
+}
+header .logo ,.logo a{
+	padding: 10px;
+	font-size: 25px;
+	line-height: 20px;
+	
+}
+/* ------------------------ end Style the header ---------------------------------*/
+/* ------------------------start style  the footer ---------------------------------*/
+footer {
+	position: ;
+    width: 100%;
+	
+	line-height: 50px;
+	background-color:#000838;
+	color:#fff;
+	
+	 
+
+}
+/* ------------------------ end Style the footer ---------------------------------*/
+/* ------------------------start style  the login ---------------------------------*/
+form{
+	padding-top:50px;
+	height:557px;
+}
+.cont{
+    
+    margin:0 auto ;
+    padding:20px;
+    width:450px;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow:0 4px 50px 4px rgba(177, 177, 177, 0.44);
+}
+.cont h1 {
+    
+    color: #008eff;
+    text-transform: capitalize;
+	text-align: center;
+}
+/* --------start style  input ------- */
+input{
+    font-size: 25px;
+    width:100%;
+    padding-left:10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid rgba(0, 142, 255, 0.25);
+    color:#008eff ;
+}
+/* --------end style input ------- */
+/* --------start style  placeholder ------- */
+.cont ::-webkit-input-placeholder{
+    font-size:20px ;
+    color: rgba(0, 142, 255, 0.45);
+    
+}
+/* --------end style placeholder ------- */
+/* --------start style  botton ------- */
+.button {
+		border:0;
+		outline:none;
+		border-radius:0;
+		padding:15px 0;
+		font-size:2rem;
+		font-weight:600;
+		text-transform:uppercase;
+		letter-spacing:.1em;
+		color:#FFF;
+		transition:all.5s ease;
+		appearance: none;
+		background:#008eff;
+		width: 100%;
+		display: block;
+		margin-top: 10px;
+}
+ .button:hover , .button:focus {
+		background-color:#2ba0fd;
+		cursor: pointer;
+		color:#FFF;
+  }
+
+/* --------end style  botton------- */
+/* --------start style  link ------- */
+.cont a{
+		text-decoration: ;
+		color: #008eff;
+		padding: 10px;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.cont a:hover{
+		color: #03579a;
+	}
+/* --------end style  link ------- */
+/* ------------------------ end Style the login ---------------------------------*/
+/*-------------------- start nav bar style -------------------------------- */
+
+nav ul {
+			list-style: none;
+			margin: 0  auto;
+		
+
+}
+
+   
+nav ul li{
+		color: #2196f3;
+		padding: 5px 20px;
+		margin: 10px;
+		float: right;
+		font-size: 17px;
+		border-radius: 10px;
+		box-shadow:  0 1px 10px 1px #bdbdd6;
+		background-color:#d9e3f8;
+		cursor: pointer;
+		transition:.25s ease;
+}
+
+nav ul li:hover  {
+    background-color:rgba(0, 142, 255, 0.8)  ;
+     box-shadow:0 2px 5px 2px #7e7e98; 
+       color:#FFF;
+}
+/*-------------------- end nav bar style -------------------------------- */
+/*--------------------start description style -------------------------------- */
+
+.desc {
+	margin: 100px auto;
+}
+.desc p{
+    line-height: 30px;
+    color:#2196f3;
+	font-size: 20px;
+    
+}
+.desc h1{
+	font-size: 50px;
+}
+/*-------------------- end description  style -------------------------------- */
+/*-------------------- start  about us  style -------------------------------- */
+.about-us{
+   margin:50px auto;
+	width: 100%;
+}
+ .imginf,.info{
+    float: left;
+    width: 50%;
+    height:315px; 
+	
+}
+.about-us .imginf{ background: #73797f;}
+.about-us .info{
+     padding: 50px 0 0 50px;
+	
+}
+.info h2{
+    line-height: 100px;
+     color:rgba(31, 40, 53, 0.8)   ;
+}
+.info p {
+   line-height: 20px;
+    font-size: 10pt;
+    color:#7a8696
+}
+
+.info .spaninf{
+        padding: 2px auto;
+        line-height: 100px;
+        font-size: 12pt;
+        font-weight: bold;
+        transition:.5s ease;
+       
+}
+.info .spaninf:hover{
+    cursor: pointer;    
+}
+/*-------------------- end about us style -------------------------------- */
+/*-------------------- start  products style -------------------------------- */
+
+.products, .best{
+	padding: 20px;
+}
+.products h1 , .best h1{
+	margin: 0 100px ;
+	color:rgba(20, 29, 82, 0.80);
+}
+
+ 
+.salepro{
+    width: 30%;
+    margin:50px 1.5%;
+    margin-bottom: 50px;
+    float: left;
+    border: 1px solid rgba(162, 162, 162, 0.3);
+   transition:.5s ease;
+	height: 450px;
+}
+.salepro .buy {
+		
+			border:0;
+			outline:none;
+			appearance: none;
+			border-radius:5px;
+			color:#FFF;
+			transition:all.5s ease;
+			text-decoration: none;
+			background:#008eff;
+			padding: 10px;
+			margin: 0 auto;
+			font-weight: 600;
+			font-size: 20px;
+			margin-bottom: 20px;
+			width: 60%;
+			display: block;
+
+}
+ .salepro .buy:hover , .salepro .buy:focus {
+		background-color:#c0c0ff;
+		cursor: pointer;
+		color:#008eff;
+  }
+.imgpro{
+    width: 80%;
+    margin: 30px auto;
+    height: 150px;
+    background-color:#73797f 
+        
+}
+.salepro:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+	box-shadow: 0 1px 10px 0 rgba(162, 162, 162, 0.4);
+}
+.salepro h5{
+        color:rgba(31, 40, 53, 0.9) ;
+}
+.salepro p{
+     color:rgba(31, 40, 53, 0.5) ;
+    line-height:40px;
+    font-size: 10pt;
+}
+.salepro span{
+			color:rgba(31, 40, 53, 0.9) ;
+			line-height: 50px;
+			font-size: 12pt;
+			padding-bottom: 50px;
+}
+/*-------------------- end  products style -------------------------------- */
+
+
+lable{
+    font-size: 25px;
+    width:100%;
+	display: block;
+    padding-left:10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid rgba(0, 142, 255, 0.25);
+    color:#008eff ;
+}
