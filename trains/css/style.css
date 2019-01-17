@@ -1,0 +1,106 @@
+*{
+	padding:  0 ;
+	margin :  0 ;	
+	direction: rtl;
+	font-family: cursive;
+	color:#fff;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.back{
+   background-image: url(../image/back.png);
+}
+
+#container{
+    width:1000px;
+    margin:0 auto;
+}
+
+header{
+   text-align: center;
+    padding:20px;
+	margin-top: 20px;
+    height:150px;
+    
+}
+header span{
+	color: #ff5200;
+}
+
+footer{
+    background-color: rgba(16, 16, 16, 0.9);
+    text-align: center;
+    width: 100%;
+    padding :20px 0;
+	display: block;;
+
+}
+#trainsForm{
+    margin: 0 auto;
+}
+#intbl{
+    margin: 75px auto;
+	
+}
+td{
+    padding: 15px 30px;
+
+}
+select{
+    width: 100px;
+    height: 50px;
+    font-family:serif;
+    font-size:14pt;
+	font-weight: 650;
+    text-align: center;
+    background-color: rgba(255, 82, 0, 0.70);
+    border-radius: 15px;
+	border: none;
+}
+span{
+    font-size:30px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 14pt;
+    background-color: rgba(255, 82, 0, 0.8); 
+    border: none;
+    border-radius: 20px;
+	font-weight: 650;
+
+}
+
+#trains{
+    margin: 0 auto;
+    border: 1px solid aliceblue;
+    border-radius: 2%;
+}
+#trains .cell{
+    border: 1px solid aliceblue;
+    border-radius: 5%;
+    padding: 40px;
+}
+th{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid aliceblue;
+    border-radius: 5%;
+    background-color:  rgba(255, 82, 0, 0.70);
+}
+/*
+.line{
+  
+    top:0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+*/
